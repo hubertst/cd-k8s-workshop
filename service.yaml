@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: svc-demo
+spec:
+  type: NodePort
+  selector:
+    app: hello-cd
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 5000

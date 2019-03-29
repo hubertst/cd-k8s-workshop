@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: rs-cd
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-cd
+  template:
+    metadata:
+      name: nginx
+      labels:
+        app: hello-cd
+    spec:
+      containers:
+      - image: hubertst/cd-k8s-workshop
+        name: hello-cd
