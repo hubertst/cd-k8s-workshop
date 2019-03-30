@@ -2,6 +2,7 @@
 
 Niniejsze materiały zostały przygotowane na warsztat Kubernetes: 101 na DojoConfe 2019 w Katowicach
 Stanowią uzupełnienie prezentacji.
+https://docs.google.com/presentation/d/1CSWpXT4F5Jq7wX7hbnWKmDsym2lYTbNonPKpk9ZymUI/edit?usp=sharing
 
 Kod golang (go-server.go) pochodzi z dwóch źródeł:
 * https://gist.github.com/creack/4c00ee404f2d7bd5983382cc93af5147
